@@ -13,8 +13,8 @@ if (!isset($_SESSION["userid"]) || $_SESSION["userid"] !== true) {
     <head>
         <meta charset="UTF-8";>
         <title>Welcome <?php echo $_SESSION["name";]; ?></title>
-        <link rel=&quot;stylesheet&quot; href=&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css&quot;>
     </head>
     <body>
         <p>Bonjour</p>
     </body>
+</html>
